@@ -2,7 +2,7 @@
 # 1. Output Values - Virtual Machine - IP Address
 output "vm_public_ip_address" {
   description = "My Virtual Machine Public IP"
-  value = azurerm_public_ip.myterraformpublicip.id
+  value = azurerm_public_ip.myterraformpublicip.ip_address
 }
 
 output "vm_name" {
